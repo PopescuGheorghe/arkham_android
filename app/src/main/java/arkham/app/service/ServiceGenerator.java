@@ -11,7 +11,7 @@ import java.io.IOException;
 
 public class ServiceGenerator {
 
-    public static final String API_BASE_URL = "https://sunscreen-api.herokuapp.com";
+    public static final String API_BASE_URL = "https://arkham-api.herokuapp.com";
 
     private static OkHttpClient.Builder httpClient = new OkHttpClient.Builder();
     public static Retrofit retrofit;
